@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Domenico Rizzo",
+    "email": "domenico.rizzo@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/willypuzzle/ts-vue-dom-helper/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "description": "Typescript-vue helpers",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/willypuzzle/ts-vue-dom-helper",
+  "keywords": [
+    "helpers",
+    "vue"
+  ],
+  "license": "ISC",
+  "main": "index.ts",
+  "maintainers": [
+    {
+      "name": "willypuzzle",
+      "email": "domenico.rizzo@gmail.com"
+    }
+  ],
+  "name": "ts-vue-dom-helper",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willypuzzle/ts-vue-dom-helper.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
