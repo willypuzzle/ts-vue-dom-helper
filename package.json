@@ -7,10 +7,15 @@
     "url": "https://github.com/willypuzzle/ts-vue-dom-helper/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "vue": "^2.1.10"
   },
   "description": "Typescript-vue helpers",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-ts": "^6.0.0-beta.17",
+    "typescript": "^2.6.1"
+  },
   "directories": {},
   "homepage": "https://github.com/willypuzzle/ts-vue-dom-helper",
   "keywords": [
@@ -18,7 +23,7 @@
     "vue"
   ],
   "license": "ISC",
-  "main": "index.ts",
+  "main": "js/index.js",
   "maintainers": [
     {
       "name": "willypuzzle",
