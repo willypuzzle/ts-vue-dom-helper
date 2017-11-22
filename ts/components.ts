@@ -1,9 +1,9 @@
 import Vue from 'vue';
-import _ from 'lodash'
+import {each} from 'lodash'
 
 let getElementFromArrayByAttribute = (components : Array<Vue>, attrName : string, needle : string) : Vue => {
     let element = null;
-    _.each(components, (el) => {
+    each(components, (el) => {
         if(!element && el.$attrs[attrName] === needle){
             element = el;
         }

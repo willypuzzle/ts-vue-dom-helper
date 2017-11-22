@@ -1,9 +1,9 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var lodash_1 = require("lodash");
 var getElementFromArrayByAttribute = function (components, attrName, needle) {
     var element = null;
-    lodash_1["default"].each(components, function (el) {
+    lodash_1.each(components, function (el) {
         if (!element && el.$attrs[attrName] === needle) {
             element = el;
         }

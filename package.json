@@ -12,6 +12,7 @@
   },
   "description": "Typescript-vue helpers",
   "devDependencies": {
+    "@types/lodash": "^4.14.85",
     "grunt": "^1.0.1",
     "grunt-ts": "^6.0.0-beta.17",
     "typescript": "^2.6.1"
@@ -39,5 +40,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.2"
+  "version": "0.1.0-alpha.0"
 }
