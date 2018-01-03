@@ -10,6 +10,12 @@ let clone = (obj) : any => {
     }
 }
 
+let sleep = (delay) => {
+    let start = new Date().getTime();
+    while (new Date().getTime() < start + delay);
+}
+
 export {
-    clone
+    clone,
+    sleep
 }

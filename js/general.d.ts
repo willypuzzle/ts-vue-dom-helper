@@ -1,2 +1,3 @@
 declare let clone: (obj: any) => any;
-export { clone };
+declare let sleep: (delay: any) => void;
+export { clone, sleep };

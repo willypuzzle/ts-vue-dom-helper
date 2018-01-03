@@ -13,3 +13,9 @@ var clone = function (obj) {
     }
 };
 exports.clone = clone;
+var sleep = function (delay) {
+    var start = new Date().getTime();
+    while (new Date().getTime() < start + delay)
+        ;
+};
+exports.sleep = sleep;
