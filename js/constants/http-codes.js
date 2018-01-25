@@ -1,5 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var CONFLICT = 409;
+exports.CONFLICT = CONFLICT;
 var FORBIDDEN = 403;
 exports.FORBIDDEN = FORBIDDEN;
 var INTERNAL_SERVER_ERROR = 500;
