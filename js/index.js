@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var COMPONENTS_HELPER = require("./components");
 exports.COMPONENTS_HELPER = COMPONENTS_HELPER;
+var DATE_HELPER = require("./date");
+exports.DATE_HELPER = DATE_HELPER;
 var DOM_HELPER = require("./dom");
 exports.DOM_HELPER = DOM_HELPER;
 var GENERAL_HELPER = require("./general");
