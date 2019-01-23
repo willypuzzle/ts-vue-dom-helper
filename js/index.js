@@ -10,3 +10,5 @@ var GENERAL_HELPER = require("./general");
 exports.GENERAL_HELPER = GENERAL_HELPER;
 var HTTP_CODES = require("./constants/http-codes");
 exports.HTTP_CODES = HTTP_CODES;
+var ARRAY = require("./array");
+exports.ARRAY = ARRAY;
