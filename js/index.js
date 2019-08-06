@@ -12,3 +12,5 @@ var HTTP_CODES = require("./constants/http-codes");
 exports.HTTP_CODES = HTTP_CODES;
 var ARRAY = require("./array");
 exports.ARRAY = ARRAY;
+var VALIDATION = require("./validation");
+exports.VALIDATION = VALIDATION;
