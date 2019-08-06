@@ -14,3 +14,5 @@ var ARRAY = require("./array");
 exports.ARRAY = ARRAY;
 var VALIDATION = require("./validation");
 exports.VALIDATION = VALIDATION;
+var RANDOM = require("./random");
+exports.RANDOM = RANDOM;

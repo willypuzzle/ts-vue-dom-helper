@@ -15,14 +15,10 @@ export {
     getMetaTagContent
 }
 
-import randomstring from "randomstring";
+import {simpleString} from './random'
 
 function makeid(length : number = 24) {
-    return randomstring.generate({
-        length: length,
-        charset: 'hex',
-        capitalization: 'lowercase'
-    })
+    return simpleString(length)
 }
 
 function loadStylesheet(url : string){

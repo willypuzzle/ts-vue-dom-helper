@@ -5,6 +5,7 @@ import * as GENERAL_HELPER from './general'
 import * as HTTP_CODES from './constants/http-codes'
 import * as ARRAY from './array'
 import * as VALIDATION from './validation'
+import * as RANDOM from './random'
 
 export {
     ARRAY,
@@ -13,5 +14,6 @@ export {
     DOM_HELPER,
     HTTP_CODES,
     GENERAL_HELPER,
-    VALIDATION
+    VALIDATION,
+    RANDOM
 }

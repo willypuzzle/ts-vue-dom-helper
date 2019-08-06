@@ -11,14 +11,10 @@ var getMetaTagContent = function (name) {
     return null;
 };
 exports.getMetaTagContent = getMetaTagContent;
-var randomstring_1 = require("randomstring");
+var random_1 = require("./random");
 function makeid(length) {
     if (length === void 0) { length = 24; }
-    return randomstring_1.default.generate({
-        length: length,
-        charset: 'hex',
-        capitalization: 'lowercase'
-    });
+    return random_1.simpleString(length);
 }
 exports.makeid = makeid;
 function loadStylesheet(url) {
